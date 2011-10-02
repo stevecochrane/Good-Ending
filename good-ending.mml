@@ -10,7 +10,7 @@
 ; Set tempo for all channels to 180bpm
 ABCD t180
 
-; Set up channel A (pulse): length = eighth notes, octave = 4, duty cycle = 1, volume = @v0 volume envelope
+; Set up channel A (pulse): length = quarter notes, octave = 4, duty cycle = 0, volume = @v0 volume envelope
 A l4 o4 @00 @v0
 ; Beginning rest
 A [r1.]8
@@ -32,7 +32,7 @@ B [c r8 r d8 e r8 r2. c e8 d r8 c r8]8
 ; Out
 B c r8 r d8 e
 
-; Set up channel C (triangle): length = quarter notes, octave = 3, quantize 6/8
+; Set up channel C (triangle): length = quarter notes, octave = 4, quantize 6/8
 C l4 o4 q6
 ; Bassline
 C [a. a. a. a. > c. c. c. c < d8 g. g. g. g. e. e. e. e b8]10
